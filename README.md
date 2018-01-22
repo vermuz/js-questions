@@ -32,6 +32,7 @@ console.log(typeOfNumber);
 
 var typeOfAllNumber = MyNumber.getTypeOfAllNumber.apply(null,[2,4,5,78,21]);
 console.log(typeOfAllNumber);
+```
 
 ```
 Odd
