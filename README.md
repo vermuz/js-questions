@@ -3,13 +3,14 @@ Collected JS questions
 
 
 ### Call vs Apply
-/*
-call() : It is used to call a function with a given this value and 
+#### call()
+It is used to call a function with a given this value and 
 arguments provided individually.
-apply(): It is used to call a function with a given this value and 
+#### apply()
+It is used to call a function with a given this value and 
 arguments provided as an array.
-*/
 
+```javascript
 var MyNumber = {
   getTypeOfNumber : function(number){
     var type = (number % 2 === 0) ? "Even" : "Odd"; return type;
