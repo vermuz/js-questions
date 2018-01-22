@@ -1,6 +1,17 @@
 # js-questions
 Collected JS questions
 
+### prototype property
+used to add new members to an existing object
+```javascript
+function Student(name, id) {
+  this.name=name;
+  this.id=id;
+}
+
+var st = new Student('Mani', 126);
+Student.prototype.class = 5;
+```
 
 ### Call vs Apply
 #### call()
